@@ -1,0 +1,161 @@
+/*ELEMENT DE LA PAGE*/
+ 
+#global
+{
+    min-width:600px;
+}
+ 
+#titre_principal
+{
+    width :50%;
+}
+ 
+#logo{
+    width : 70%;
+    margin-left:15px;
+}
+#logo2{
+    width : 100%;
+}
+#bloc_page
+{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+ 
+body
+{
+    font-family : Arial, Helvetica, sans-serif;
+    min-width:600px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-image: url(orientation_copie.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:150%;  
+}
+ 
+/*HEADER*/
+ 
+#banniere_image
+{
+   width: 100%;
+    margin: auto;
+    background-color : white;
+}
+ 
+#titre_principal, nav
+{
+    display:inline-block;
+     
+}
+ 
+/*NAVIGATION*/
+ 
+ 
+li {
+    display:inline-block;
+    list-style-type : none;
+ 
+}
+ 
+ 
+nav li img
+{
+    width : 55%;
+    height : 15%;
+    margin:0;
+    padding:0;
+}
+ 
+#navigation img
+{
+    width :20%;
+    margin:15px 50px 0px 50px;
+}
+ 
+#navigation {
+    margin-left:45px;
+}
+ 
+/*ELEMENTS DE LA PAGE*/
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-size:1.125em;
+    margin-left : 0;
+}
+ 
+em {
+    font-weight: bold;
+    text-align: left;
+    font-size : 1em;
+ 
+}
+p  {
+    font-size : 1em;
+    text-align : justify;
+    padding : 12px;
+    margin : auto;
+    margin-left : 8px;
+ 
+}
+ 
+section {
+    text-align : justify;
+    background-color: white;
+    width : 90%;
+    margin: auto;
+     
+}
+ 
+article, aside{
+    display:inline-block;
+    vertical-align: middle;
+}
+ 
+aside
+{
+    display:inline-block;
+    width: 35%;
+    background-color: #F48200;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    margin-left : 100px;
+}
+article {
+    width:auto;
+}
+ 
+iframe {
+    width:100%}
+ 
+textarea {
+   height: 135px;
+   width: 290px;
+   max-height: 435px;
+   max-width: 450px;
+}
+ 
+/*FOOTER*/
+ 
+footer {
+ 
+    background-color: #4C1B1B;
+    text-align: center;
+    color : #fffff;
+}
+footer  p{
+    text-align: center;
+    color : #FFFFFF;
+}
+footer  p :active :hoover :focus :visited{
+    text-align: center;
+    color : #FFFFFF;
+}

@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+
+h1{
+	color : red;
+}
+
+
+/*   ruban     */ 
+header {	
+	background: -webkit-linear-gradient(#e0f3fa 0%, #c49396 35%, #fdffdb 50%, #b8e2f6 59%, #8596b2 80%);
+	background: -o-linear-gradient(#e0f3fa 0%, #c49396 35%, #fdffdb 50%, #b8e2f6 59%, #8596b2 80%);
+	background: linear-gradient(#e0f3fa 0%, #c49396 35%, #fdffdb 50%, #b8e2f6 59%, #8596b2 80%);
+
+	padding: 5px 15px 0 15px;
+	padding-bottom: 15px;
+}
+/*     le titre         */
+header h1{
+	margin: 0;
+	display: inline;
+	color: #D9FA05;
+}
+
+nav a {
+	text-decoration: none;
+	color: #20d64d;
+}
+
+nav ul {
+	margin: 0;
+	display: inline;
+}
+
+nav ul li{
+	margin-right: 10px;
+	border-radius: 10px; /* bordures des liens arrondies*/
+	-webkit-border-radius: 10px;	/* Dans le cas où il y a un problème de compatibilité */
+	list-style: none;
+	display: inline-block;
+	background-color: #0FAB2E;
+	color: #EBE41C;
+}
+
+nav ul li a{
+	border: 2px solid #167037;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	display: block;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #EBE41C;
+}
+
+nav ul li a:hover{ /* Lorsqu'on passe la souris sur les liens */
+	background-color: #DB0F0F;
+	color: #555;
+
+}
+
+.container{
+	height: 90%;
+	width: 90%;
+}
+
+footer{  /* Bas de page */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: #555;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	
+}	
+
+
+
+
